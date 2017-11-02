@@ -110,7 +110,7 @@
 					<path>/CounterWebApp</path>
 				</configuration>
 			</plugin>
-<!-- jstl 
+<!-- jstl -->
 <plugin>
             <groupId>org.eclipse.jetty</groupId>
             <artifactId>jetty-maven-plugin</artifactId>
@@ -120,7 +120,7 @@
                 <stopKey>stopKey</stopKey>
                 <stopWait>20</stopWait>
             </configuration>
-        </plugin>	-->
+        </plugin>	
 			
 			<plugin>
 			        <groupId>org.apache.maven.plugins</groupId>
@@ -131,7 +131,7 @@
           				<threadCount>10</threadCount>
         			</configuration>
       			</plugin>
-			<!-- SonarQube plugin 
+			<!-- SonarQube plugin -->
 			 <plugin>
       				<groupId>org.sonarsource.scanner.maven</groupId>
       				<artifactId>sonar-maven-plugin</artifactId>
@@ -165,7 +165,7 @@
 				</executions>
 			</plugin>
 			
-			-->
+			
 
 		</plugins>
 
@@ -185,7 +185,7 @@
     <snapshotRepository>
         <id>snapshots</id>
         <name>devops-training-snapshots</name>
-  <!--       <url>http://localhost:8085/artifactory/libs-snapshot-local</url> -->
+     <url>http://localhost:8085/artifactory/libs-snapshot-local</url>
     </snapshotRepository>
 </distributionManagement>
 
