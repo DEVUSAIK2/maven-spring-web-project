@@ -180,7 +180,6 @@
 	    </plugins>
 	  </reporting>
 -->
-<!-- jstl 	
  <distributionManagement>
     <snapshotRepository>
         <id>snapshots</id>
@@ -188,5 +187,5 @@
      <url>http://localhost:8085/artifactory/libs-snapshot-local</url>
     </snapshotRepository>
 </distributionManagement>
--->
+
 </project>
