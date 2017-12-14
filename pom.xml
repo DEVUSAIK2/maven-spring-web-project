@@ -169,7 +169,6 @@
 		</plugins>
 
 	</build>
-<!-- 	
 	<reporting>
     		<plugins>
 			 <plugin>
@@ -179,7 +178,7 @@
 		      </plugin>
 	    </plugins>
 	  </reporting>
--->
+
  <distributionManagement>
     <snapshotRepository>
         <id>snapshots</id>
