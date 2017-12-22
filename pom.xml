@@ -182,12 +182,13 @@
 -->
 
  <distributionManagement>
-    <snapshotRepository>
+  <!--    <snapshotRepository>
         <id>snapshots</id>
         <name>devops-training-snapshots</name>
-     <!-- <url>http://localhost:8085/artifactory/libs-snapshot-local</url>	-->
-     <url>http://localhost:8082</url>
-    </snapshotRepository>
+    <url>http://localhost:8085/artifactory/libs-snapshot-local</url>	
+    
+    </snapshotRepository>	-->
+	 <url>http://localhost:8082</url>
 </distributionManagement>
 
 </project>
