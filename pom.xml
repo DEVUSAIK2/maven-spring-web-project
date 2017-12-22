@@ -191,4 +191,14 @@
 	 
 </distributionManagement>
 -->
+	<plugin>
+                    <groupId>org.apache.tomcat.maven</groupId>
+                    <artifactId>tomcat7-maven-plugin</artifactId>
+                    <version>2.2</version>
+                    <configuration>
+                        <url>http://localhost:8082/manager/text</url>
+                        <server>TomcatServer</server>
+                        <path>/yourappcontextpath</path>
+                    </configuration>
+                </plugin>
 </project>
