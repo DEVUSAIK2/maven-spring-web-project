@@ -106,16 +106,12 @@
 
 	</build>
  <distributionManagement>
-	   <repository>
-        <id>central</id>
-        <name>plugins-releases</name>
-        <url>http://localhost:8082/CounterWebApp</url>
-    </repository>
-<!--    <snapshotRepository>
+
+ <snapshotRepository>
         <id>snapshots</id>
         <name>devops-training-snapshots</name>
    	<url>http://localhost:8082/CounterWebApp</url>
-      </snapshotRepository>		-->
+      </snapshotRepository>		
 </distributionManagement>
 	
 </project>
