@@ -109,12 +109,12 @@
 	   <repository>
         <id>central</id>
         <name>plugins-releases</name>
-        <url>http://localhost:8082/CounterWebApp</url>
+        <url>http://localhost:8082/CounterWebApp-SNAPSHOT</url>
     </repository>
     <snapshotRepository>
         <id>snapshots</id>
         <name>devops-training-snapshots</name>
-   	<url>http://localhost:8082/CounterWebApp</url>
+   	<url>http://localhost:8082/CounterWebApp-SNAPSHOT</url>
       </snapshotRepository>	
 </distributionManagement>
 	
