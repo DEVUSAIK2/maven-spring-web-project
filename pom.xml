@@ -193,7 +193,7 @@
 	    </plugins>
 	  </reporting>
 -->
-
+<!-- 
  <distributionManagement>
     <snapshotRepository>
         <id>snapshots</id>
@@ -203,6 +203,15 @@
     
     </snapshotRepository>	
 	 
+</distributionManagement>
+	-->
+	
+	<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>jbaruch-releases</name>
+        <url>https://jbaruch.jfrog.io/jbaruch/libs-release-local</url>
+    </repository>
 </distributionManagement>
 
 	
