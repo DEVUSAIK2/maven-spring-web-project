@@ -193,7 +193,7 @@
 	    </plugins>
 	  </reporting>
 -->
-<!--  
+
  <distributionManagement>
     <snapshotRepository>
         <id>snapshots</id>
@@ -204,6 +204,6 @@
     </snapshotRepository>	
 	 
 </distributionManagement>
--->
+
 	
 </project>
