@@ -206,13 +206,12 @@
 </distributionManagement>
 	-->
 	
-	<distributionManagement>
-    <repository>
-        <id>central</id>
-        <name>jbaruch-releases</name>
-        <url>https://jbaruch.jfrog.io/jbaruch/libs-release-local</url>
-    </repository>
+<distributionManagement>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>CTLINDT-0452-snapshots</name>
+        <url>http://localhost:8091/artifactory/libs-snapshot-local</url>
+    </snapshotRepository>
 </distributionManagement>
 
-	
 </project>
