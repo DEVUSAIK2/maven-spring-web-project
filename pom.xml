@@ -209,8 +209,8 @@
 <distributionManagement>
     <snapshotRepository>
         <id>snapshots</id>
-        <name>CTLINDT-0452-snapshots</name>
-        <url>http://localhost:8091/artifactory/libs-snapshot-local</url>
+        <name>win12-cicd-snapshots</name>
+        <url>http://localhost:8091/artifactory/libs-snapshot</url>
     </snapshotRepository>
 </distributionManagement>
 
