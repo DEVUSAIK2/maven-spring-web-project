@@ -207,11 +207,11 @@
 	-->
 	
 <distributionManagement>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>win12-cicd-snapshots</name>
-        <url>http://localhost:8091/artifactory/libs-snapshot</url>
-    </snapshotRepository>
+    <repository>
+        <id>central</id>
+        <name>win12-cicd-releases</name>
+        <url>http://localhost:8091/artifactory/libs-release-local</url>
+    </repository>
 </distributionManagement>
 
 </project>
